@@ -86,11 +86,6 @@ class MainActivity : AppCompatActivity() {
             alertDialogBox.show()
         }
 
-
-
-
-        //updated code
-
         val btnAlert2 = findViewById<Button>(R.id.btnexit)
         btnAlert2.setOnClickListener{
             val artDialogBuilder = AlertDialog.Builder(this@MainActivity)
